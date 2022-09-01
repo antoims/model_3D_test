@@ -1,0 +1,54 @@
+.fa-magnifying-glass:before {
+
+  position: absolute;
+  top: 50px;
+  left: 140px;
+
+}
+
+.navbar {
+  position: fixed;
+  // top: 0;
+  bottom: -60px;
+  left: 0;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  column-gap: 110px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.svg-background {
+  fill: white;
+  filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+  width: 100%;
+}
